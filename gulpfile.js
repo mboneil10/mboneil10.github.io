@@ -77,11 +77,12 @@ function browserSyncReload(done) {
 
 /**
  * Build Jekyll site
+ Change bundle.bat to bundle for Mac users
  */
 function jekyll(done) {
   return cp
     .spawn(
-      'bundle',
+      'bundle.bat',
       [
         'exec',
         'jekyll',
