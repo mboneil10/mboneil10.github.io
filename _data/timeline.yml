@@ -5,27 +5,17 @@
 # > tags: List of tags you want to associate with the entry
 # > timeline-side: The side on which you want to display the entry: left or right
 
-# Example of a timeline entry
-# - title: airbnb
-#   title-url: https://example.com/
-#   date: Sep 2019 - Present
-#   subtitle: Fullstack Developer
-#   tags:
-#     - tag: React
-#     - tag: Javascript
-#     - tag: Ruby
-#     - tag: Rails
-#   timeline-side: right
-
 - title: MBTA
   title-url: https://example.com/
   date: January 2019 - April 2020
   subtitle: Applications Analyst
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: GIRO HASTUS
+    - tag: AWS WorkSpaces
+    - tag: Microsoft Visio
+    - tag: WinSCP
+    - tag: ServiceNow
+    - tag: MySQL
   timeline-side: right
 
 - title: PVTA / UMass Transit Services
@@ -33,15 +23,22 @@
   date: May 2018 - January 2019
   subtitle: Systems Engineer
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Angular
+    - tag: TypeScript
+    - tag: JavaScript
+    - tag: Bootstrap
+    - tag: GIRO HASTUS
   timeline-side: right
 
 - title: PVTA / UMass Transit Services
   title-url: https://example.com/
   date: May 2016 - May 2018
   subtitle: IT Programmer
+  tags:
+      - tag: Ruby on Rails
+      - tag: JavaScript
+      - tag: Git
+      - tag: MSQL
   timeline-side: left
 
 - title: Dr. Seuss Museum
