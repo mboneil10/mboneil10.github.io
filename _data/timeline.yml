@@ -16,7 +16,7 @@
     - tag: WinSCP
     - tag: ServiceNow
     - tag: MySQL
-  timeline-side: right
+  timeline-side: left
 
 - title: PVTA / UMass Transit Services
   title-url: https://example.com/
