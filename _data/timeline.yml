@@ -6,7 +6,7 @@
 # > timeline-side: The side on which you want to display the entry: left or right
 
 - title: MBTA
-  title-url: https://example.com/
+  title-url: https://www.mbta.com/
   date: January 2019 - April 2020
   subtitle: Applications Analyst
   tags:
@@ -19,7 +19,7 @@
   timeline-side: left
 
 - title: PVTA / UMass Transit Services
-  title-url: https://example.com/
+  title-url: http://pvta.com/
   date: May 2018 - January 2019
   subtitle: Systems Engineer
   tags:
@@ -31,7 +31,7 @@
   timeline-side: right
 
 - title: PVTA / UMass Transit Services
-  title-url: https://example.com/
+  title-url: https://www.umass.edu/transportation/transit
   date: May 2016 - May 2018
   subtitle: IT Programmer
   tags:
@@ -39,16 +39,4 @@
       - tag: JavaScript
       - tag: Git
       - tag: MSQL
-  timeline-side: left
-
-- title: Dr. Seuss Museum
-  title-url: https://example.com/
-  date: November 2016 - July 2017
-  subtitle: Mural Artist
-  timeline-side: right
-
-- title: UMass Amherst
-  title-url: https://example.com/
-  date: 2014 - 2018
-  subtitle: B.S. Pure and Computational Math
   timeline-side: left

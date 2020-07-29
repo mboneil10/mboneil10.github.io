@@ -14,7 +14,8 @@ baseurl: ""
 username: Molly
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Business Systems Analyst and Software Engineer
+typing_text: Business Systems Analyst
+typing_text_2: Software Engineer
 # email: Your E-Mail address for the email button.
 email: mbethoneil@gmail.com
 # For every social button you want to display, set your username or userid
@@ -34,8 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am a software engineer and business systems analyst out of Cambridge, VT. My passion is to always surmount every challenge with a meaningful solution.
-
+about_me_description: Looking for new career adventures! I am a software engineer and business systems analyst located in Cambridge, VT. Alumna of UMass Amherst with a B.S. in Pure and Computing Mathematics. Seeker of effective, durable solutions.
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -50,10 +50,10 @@ skills_title: Skills
 # > setting this to false, will omit the Timeline section
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
+timeline_title: Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://drive.google.com/drive/folders/1hIak7lPyKSoImS_BLl9hIobWJBwadBK9
 
 # PROJECTS SECTION
 # show_projects_card:
@@ -102,6 +102,7 @@ projects:
     forks: true
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
+      mboneil10.github.io
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
