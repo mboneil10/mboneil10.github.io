@@ -40,15 +40,3 @@
       - tag: Git
       - tag: MSQL
   timeline-side: left
-
-- title: Dr. Seuss Museum
-  title-url: https://example.com/
-  date: November 2016 - July 2017
-  subtitle: Mural Artist
-  timeline-side: right
-
-- title: UMass Amherst
-  title-url: https://example.com/
-  date: 2014 - 2018
-  subtitle: B.S. Pure and Computational Math
-  timeline-side: left
