@@ -14,7 +14,8 @@ baseurl: ""
 username: Molly
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Business Systems Analyst and Software Engineer
+typing_text: Business Systems Analyst
+typing_text_2: Software Engineer
 # email: Your E-Mail address for the email button.
 email: mbethoneil@gmail.com
 # For every social button you want to display, set your username or userid
