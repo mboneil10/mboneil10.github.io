@@ -95,6 +95,9 @@ TxtRotate.prototype.tick = function() {
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {
+    if (this.loopNum == 2) {
+      return false;
+    }
     delta = this.period;
     this.isDeleting = true;
   } else if (this.isDeleting && this.txt === '') {
