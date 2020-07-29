@@ -102,10 +102,10 @@ TxtRotate.prototype.tick = function() {
     this.loopNum++;
     delta = 500;
   }
-  return false;
-  /*setTimeout(function() {
+
+  setTimeout(function() {
     that.tick();
-  }, delta);*/
+  }, delta);
 };
 
 /* Word Cloud */
