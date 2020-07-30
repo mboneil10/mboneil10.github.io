@@ -95,6 +95,9 @@ TxtRotate.prototype.tick = function() {
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {
+    if (this.loopNum == 2) {
+      return false;
+    }
     delta = this.period;
     this.isDeleting = true;
   } else if (this.isDeleting && this.txt === '') {
@@ -102,10 +105,10 @@ TxtRotate.prototype.tick = function() {
     this.loopNum++;
     delta = 500;
   }
-  return false;
-  /*setTimeout(function() {
+
+  setTimeout(function() {
     that.tick();
-  }, delta);*/
+  }, delta);
 };
 
 /* Word Cloud */
