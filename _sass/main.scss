@@ -381,11 +381,15 @@ a {
 /* Skills Section */
 
 .skills {
-  flex-wrap: wrap;
+  display: inline-block;
 
   div {
     padding: 0.2rem;
     transition: opacity 0.5s;
+  }
+
+  div[class="types"] {
+    display: table-row;
   }
 
   div[skill-type="language"] {
@@ -400,13 +404,6 @@ a {
     color: #fecea8;
   }
 
-  input[type="radio"] {
-    display: none;
-  }
-
-  .filter-button {
-    display: none;
-  }
 }
 
 /* Timeline Section */
