@@ -11,18 +11,21 @@
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
 
   {% for language in site.data.skills-languages %}
-    <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
+    <div skill-type="language" data-aos="zoom-in">
       {{language.name}}
+      {{language.weight}}
     </div>
   {% endfor %}
   {% for framework in site.data.skills-frameworks %}
-    <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in">
+    <div skill-type="framework" data-aos="zoom-in">
       {{framework.name}}
+      {{framework.weight}}
     </div>
   {% endfor %}
   {% for tool in site.data.skills-tools %}
-    <div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in">
+    <div skill-type="tool" data-aos="zoom-in">
       {{tool.name}}
+      {{tool.weight}}
     </div>
   {% endfor %}
 </div>
