@@ -56,6 +56,12 @@ timeline_title: Experience
 cv_download_link: https://drive.google.com/drive/folders/1hIak7lPyKSoImS_BLl9hIobWJBwadBK9
 
 # PROJECTS SECTION
+# show_os_projects:
+# > setting this to true, will display your public projects on github
+# > setting this to false, will omit your public projects on github
+show_os_projects: true
+# os_projects_title: The will be displayed as the title of your open source projects
+os_projects_title: GitHub Projects
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
@@ -65,13 +71,7 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
-# show_os_projects:
-# > setting this to true, will display your public projects on github
-# > setting this to false, will omit your public projects on github
-show_os_projects: true
-# os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects
+projects_title: Hobbies
 
 # CONTACT SECTION
 # show_contact_card:
