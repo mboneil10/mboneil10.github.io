@@ -15,9 +15,16 @@ name: Music
 descr: "I'm a member of the Newton Family Singers"
 demo: https://example.com/
 tags:
-  - tag: alto
   - tag: community
   - tag: chorus
+  - tag: alto
+
+name: Pets
+descr: "Love my indoor cat, Penelope."
+demo: https://example.com/
+tags:
+  - tag: tuxedo
+  - tag: cat
 
 name: Food
 descr: "Since April 2020, I've been working on my cooking skills!"
@@ -26,9 +33,9 @@ tags:
   - tag: onions
 
 name: Health
-descr: "My partner and I have been walking. Check out my steps on Android"
+descr: "My partner and walk almost every day. Check out my steps on Android Health."
 demo: https://example.com/
 tags:
   - tag: walking
   - tag: hiking
-  - tag: vermont
+  - tag: Vermont
