@@ -4,11 +4,31 @@
 # > tags: List of technologies you used in your projects
 #
 # Example of a project
-name: project X
-descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
+name: Crafts
+descr: "Knitting is so relaxing"
 demo: https://example.com/
 tags:
-- tag: MongoDB
-- tag: Express
-- tag: AngularJS
-- tag: Node
+- tag: Celtic
+- tag: knitting
+
+name: Music
+descr: "I'm a member of the Newton Family Singers"
+demo: https://example.com/
+tags:
+  - tag: alto
+  - tag: community
+  - tag: chorus
+
+name: Food
+descr: "Since April 2020, I've been working on my cooking skills!"
+demo: https://example.com/
+tags:
+  - tag: onions
+
+name: Health
+descr: "My partner and I have been walking. Check out my steps on Android"
+demo: https://example.com/
+tags:
+  - tag: walking
+  - tag: hiking
+  - tag: vermont
