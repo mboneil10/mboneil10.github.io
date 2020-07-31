@@ -9,7 +9,8 @@
   <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
-
+  <p>
+  </p>
   {% for language in site.data.skills-languages %}
     <div skill-type="language" data-aos="zoom-in">
         {{language.name}}: {{language.weight}}
