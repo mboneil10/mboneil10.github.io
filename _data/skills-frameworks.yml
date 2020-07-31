@@ -7,6 +7,5 @@
 - name: Django
   weight: 2
 
-
 - name: Ruby on Rails
   weight: 5
