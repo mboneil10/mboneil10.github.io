@@ -12,23 +12,17 @@
 
   {% for language in site.data.skills-languages %}
     <div skill-type="language" data-aos="zoom-in">
-      <p>
         {{language.name}}: {{language.weight}}
-      </p>
     </div>
   {% endfor %}
   {% for framework in site.data.skills-frameworks %}
     <div skill-type="framework" data-aos="zoom-in">
-      <p>
         {{framework.name}}: {{framework.weight}}
-      </p>
     </div>
   {% endfor %}
   {% for tool in site.data.skills-tools %}
     <div skill-type="tool" data-aos="zoom-in">
-      <p>
         {{tool.name}}: {{tool.weight}}
-      </p>
     </div>
   {% endfor %}
 </div>
