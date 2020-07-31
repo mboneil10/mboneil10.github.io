@@ -381,15 +381,16 @@ a {
 /* Skills Section */
 
 .skills {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 
   div {
     padding: 0.2rem;
     transition: opacity 0.5s;
   }
 
-  div[class="types"] {
-    display: table-row;
+  div > .types {
+    margin: 10px;
   }
 
   div[skill-type="language"] {
