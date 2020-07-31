@@ -4,45 +4,45 @@
 # > tags: List of technologies you used in your projects
 #
 # Example of a project
-name: Crafts
-descr: "Knitting is so relaxing"
-demo: https://example.com/
-tags:
-  - tag: Celtic
-  - tag: knitting
+- name: Crafts
+  descr: "Knitting is so relaxing"
+  demo: https://example.com/
+  tags:
+    - tag: Celtic
+    - tag: knitting
 
-name: Music
-descr: "I'm a member of the Newton Family Singers"
-demo: http://www.newtonfamilysingers.org/
-tags:
-  - tag: community
-  - tag: chorus
-  - tag: alto
+- name: Music
+  descr: "I'm a member of the Newton Family Singers"
+  demo: http://www.newtonfamilysingers.org/
+  tags:
+    - tag: community
+    - tag: chorus
+    - tag: alto
 
-name: Pets
-descr: "Love my indoor cat, Penelope."
-demo: https://example.com/
-tags:
-  - tag: tuxedo
-  - tag: cat
+- name: Pets
+  descr: "Love my indoor cat, Penelope."
+  demo: https://example.com/
+  tags:
+    - tag: tuxedo
+    - tag: cat
 
-name: Food
-descr: "Since April 2020, I've been working on my cooking skills!"
-demo: https://example.com/
-tags:
-  - tag: onions
+- name: Food
+  descr: "Since April 2020, I've been working on my cooking skills!"
+  demo: https://example.com/
+  tags:
+    - tag: onions
 
-name: Art
-descr: "From 2016 to 2017 I was a mural artist for the Seuss Museum in Springfield, MA."
-demo: https://springfieldmuseums.org/about/dr-seuss-museum/
-tags:
-  - tag: paint
-  - tag: museum
+- name: Art
+  descr: "From 2016 to 2017 I was a mural artist for the Seuss Museum in Springfield, MA."
+  demo: https://springfieldmuseums.org/about/dr-seuss-museum/
+  tags:
+    - tag: paint
+    - tag: museum
 
-name: Health
-descr: "My partner and walk almost every day. Beat my step count on Samsung Health."
-demo: mbethoneil@gmail.com
-tags:
-  - tag: walking
-  - tag: hiking
-  - tag: Vermont
+- name: Health
+  descr: "My partner and walk almost every day. Beat my step count on Samsung Health."
+  demo: mbethoneil@gmail.com
+  tags:
+    - tag: walking
+    - tag: hiking
+    - tag: Vermont
