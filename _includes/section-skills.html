@@ -1,28 +1,27 @@
 <h1 class="title">{{site.skills_title}}</h1>
-
-<div class="skills">
-  <h1>Languages</h1>
-  {% for language in site.data.skills-languages %}
-    <div skill-type="language" data-aos="zoom-in">
-      {{language.name}}
+  <div class="skills">
+    <div class="types">
+      <h1>Languages</h1>
+      {% for language in site.data.skills-languages %}
+        <div skill-type="language" data-aos="zoom-in">
+          {{language.name}}
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
-
-<div class="skills">
-  <h1>Frameworks</h1>
-  {% for framework in site.data.skills-frameworks %}
-    <div skill-type="framework" data-aos="zoom-in">
-      {{framework.name}}
+    <div class="types">
+      <h1>Frameworks</h1>
+      {% for framework in site.data.skills-frameworks %}
+        <div skill-type="framework" data-aos="zoom-in">
+          {{framework.name}}
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
-
-<div class="skills">
-  <h1>Tools</h1>
-  {% for tool in site.data.skills-tools %}
-    <div skill-type="tool" data-aos="zoom-in">
-        {{tool.name}}
+    <div class="types">
+      <h1>Tools</h1>
+      {% for tool in site.data.skills-tools %}
+        <div skill-type="tool" data-aos="zoom-in">
+            {{tool.name}}
+        </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
