@@ -1,6 +1,6 @@
 <h1 class="title">{{site.timeline_title}}</h1>
 <p class="subtitle">
-  For more information, have a look at my
+  For a more detailed history, view my
   <a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">
     Resume
   </a>.
@@ -19,10 +19,10 @@
                   <span>{{event.title}}</span>
                 </a>
               </span>
-              <span class="time-wrapper" data-aos="zoom-in-right">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
             </div>
+            <span class="time-wrapper" data-aos="zoom-in-right">
+              <span class="time neumorphism-card">{{event.date}}</span>
+            </span>
             <div class="desc neumorphism-card" data-aos="zoom-in-right">
               {{event.subtitle}}
               {% if event.tags %}
@@ -47,10 +47,10 @@
                   <span>{{event.title}}</span>
                 </a>
               </span>
-              <span class="time-wrapper" data-aos="zoom-in-left">
-                <span class="time neumorphism-card">{{event.date}}</span>
-              </span>
             </div>
+            <span class="time-wrapper" data-aos="zoom-in-left">
+              <span class="time neumorphism-card">{{event.date}}</span>
+            </span>
             <div class="desc neumorphism-card" data-aos="zoom-in-left">
               {{event.subtitle}}
               {% if event.tags %}
