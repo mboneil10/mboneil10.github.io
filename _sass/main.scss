@@ -20,7 +20,9 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #ff073a;
+$primary-color: #5680E9;
+$secondary-color: #5AB9EA;
+$tertiary-color: #84CEEB;
 
 /* General */
 
@@ -44,6 +46,7 @@ h1 {
   font-size: $font-size-h1;
   font-weight: $font-weight-strong;
   line-height: 2rem;
+  color: $secondary-color;
 }
 
 p {
@@ -62,6 +65,9 @@ a {
 .highlight-title {
   color: $primary-color;
   text-shadow: none;
+  h1 {
+    color:white;
+  }
 }
 
 .highlight-link {
@@ -171,21 +177,21 @@ a {
 
   .load :first-child {
     animation-delay: -1.5s;
-    background: $text-color;
+    background: $primary-color;
   }
 
   .load :nth-child(2) {
     animation-delay: -1s;
-    background: $primary-color;
+    background: $secondary-color;
   }
 
   .load :nth-child(3) {
     animation-delay: -0.5s;
-    background: $text-color;
+    background: $tertiary-color;
   }
 
   .load :last-child {
-    background: $primary-color;
+    background: $text-color;
   }
 
   @keyframes spin {
@@ -235,6 +241,14 @@ a {
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
+
+  h1 {
+    color: $text-color;
+  }
+
+  #username {
+    color: $primary-color;
+  }
 }
 
 .landing-title {
@@ -247,7 +261,7 @@ a {
 }
 
 .scroll-down {
-  fill: white;
+  fill: $primary-color;
   position: center;
 }
 
@@ -404,15 +418,15 @@ a {
   }
 
   div[skill-type="language"] {
-    color: #e84a5f;
+    color: $tertiary-color;
   }
 
   div[skill-type="framework"] {
-    color: #ff847c;
+    color: $tertiary-color;
   }
 
   div[skill-type="tool"] {
-    color: #fecea8;
+    color: $tertiary-color;
   }
 
 }
@@ -545,6 +559,10 @@ a {
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0.5rem 1rem;
+
+  h3 {
+    color: $tertiary-color;
+  }
 }
 
 .project .name-link-wrapper {
