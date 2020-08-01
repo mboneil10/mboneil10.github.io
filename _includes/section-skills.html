@@ -1,7 +1,7 @@
 <h1 class="title">{{site.skills_title}}</h1>
   <div class="skills">
     <div class="types neumorphism-card">
-      <h1>Languages</h1>
+      <h3>Languages</h3>
       {% for language in site.data.skills-languages %}
         <div skill-type="language" data-aos="zoom-in">
           {{language.name}}
@@ -9,7 +9,7 @@
       {% endfor %}
     </div>
     <div class="types neumorphism-card">
-      <h1>Frameworks</h1>
+      <h3>Frameworks</h3>
       {% for framework in site.data.skills-frameworks %}
         <div skill-type="framework" data-aos="zoom-in">
           {{framework.name}}
@@ -17,7 +17,7 @@
       {% endfor %}
     </div>
     <div class="types neumorphism-card">
-      <h1>Tools</h1>
+      <h3>Tools</h3>
       {% for tool in site.data.skills-tools %}
         <div skill-type="tool" data-aos="zoom-in">
             {{tool.name}}
