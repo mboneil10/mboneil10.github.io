@@ -20,9 +20,9 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: limegreen;
-$secondary-color: darkturquoise;
-$tertiary-color: orchid;
+$primary-color: #5680E9;
+$secondary-color: #5AB9EA;
+$tertiary-color: #84CEEB;
 
 /* General */
 
@@ -177,21 +177,21 @@ a {
 
   .load :first-child {
     animation-delay: -1.5s;
-    background: $text-color;
+    background: $primary-color;
   }
 
   .load :nth-child(2) {
     animation-delay: -1s;
-    background: $primary-color;
+    background: $secondary-color;
   }
 
   .load :nth-child(3) {
     animation-delay: -0.5s;
-    background: $text-color;
+    background: $tertiary-color;
   }
 
   .load :last-child {
-    background: $primary-color;
+    background: $text-color;
   }
 
   @keyframes spin {
@@ -241,6 +241,10 @@ a {
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
+
+  h1 {
+    color: white;
+  }
 
   #username {
     color: $primary-color;
