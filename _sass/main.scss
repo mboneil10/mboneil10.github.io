@@ -380,11 +380,18 @@ a {
 
 /* Skills Section */
 
-#skills {
-  align-items: center;
+.skills {
+  font-size: $font-size-base;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+
+  .neumorphism-card {
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    width: 25%;
+  }
 
   div {
     padding: 0.2rem;
@@ -403,38 +410,6 @@ a {
     color: #fecea8;
   }
 
-  div[skill-weight="1"] {
-    font-size: 0.75rem;
-    line-height: 0.25rem;
-  }
-
-  div[skill-weight="2"] {
-    font-size: 1.25rem;
-    line-height: 0.75rem;
-  }
-
-  div[skill-weight="3"] {
-    font-size: 1.75rem;
-    line-height: 1.25rem;
-  }
-
-  div[skill-weight="4"] {
-    font-size: 2.25rem;
-    line-height: 1.75rem;
-  }
-
-  div[skill-weight="5"] {
-    font-size: 2.75rem;
-    line-height: 2.25rem;
-  }
-
-  input[type="radio"] {
-    display: none;
-  }
-
-  .filter-button {
-    display: none;
-  }
 }
 
 /* Timeline Section */

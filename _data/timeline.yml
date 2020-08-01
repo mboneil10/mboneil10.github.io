@@ -38,5 +38,5 @@
       - tag: Ruby on Rails
       - tag: JavaScript
       - tag: Git
-      - tag: MSQL
+      - tag: MySQL
   timeline-side: left

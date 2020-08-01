@@ -6,7 +6,6 @@
 # Example of a project
 - name: Crafts
   descr: "Knitting is so relaxing"
-  demo: https://example.com/
   tags:
     - tag: Celtic
     - tag: knitting
@@ -21,14 +20,12 @@
 
 - name: Pets
   descr: "Love my indoor cat, Penelope."
-  demo: https://example.com/
   tags:
     - tag: tuxedo
     - tag: cat
 
 - name: Food
   descr: "Since April 2020, I've been working on my cooking skills!"
-  demo: https://example.com/
   tags:
     - tag: onions
 
@@ -40,8 +37,7 @@
     - tag: museum
 
 - name: Health
-  descr: "My partner and walk almost every day. Beat my step count on Samsung Health."
-  demo: mbethoneil@gmail.com
+  descr: "My partner and I walk almost every day. Beat my step count on Samsung Health."
   tags:
     - tag: walking
     - tag: hiking
