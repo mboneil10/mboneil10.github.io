@@ -1,11 +1,10 @@
 # > name: Name of your framework
 # > weight: Describes how good you know the framework - values from 1 up to 5
-
+- name: Ruby on Rails
+  weight: 5
+  
 - name: Angular
   weight: 5
 
 - name: Django
   weight: 2
-
-- name: Ruby on Rails
-  weight: 5
