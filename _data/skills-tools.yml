@@ -8,23 +8,23 @@
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 3
+- name: vim
+  weight: 5
 
 - name: Atom
   weight: 4
+
+- name: Bootstrap
+  weight: 4
+
+- name: Bash
+  weight: 3
+
+- name: JIRA
+  weight: 3
 
 - name: npm
   weight: 2
 
 - name: gulp
   weight: 2
-
-- name: vim
-  weight: 5
-
-- name: Bootstrap
-  weight: 4
-
-- name: JIRA
-  weight: 3
