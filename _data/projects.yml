@@ -4,13 +4,6 @@
 # > tags: List of technologies you used in your projects
 #
 # Example of a project
-- name: Knitting
-  descr: "I love crafting items. In particular, knitting is so relaxing."
-  tags:
-    - tag: Celtic
-    - tag: knitting
-    - tag: crafts
-
 - name: Singing
   descr: "I'm a member of the Newton Family Singers."
   demo: http://www.newtonfamilysingers.org/
@@ -19,6 +12,21 @@
     - tag: community
     - tag: chorus
     - tag: alto
+
+- name: Murals
+  descr: "From 2016 to 2017 I was a mural artist for the Seuss Museum in Springfield, MA."
+  demo: https://springfieldmuseums.org/about/dr-seuss-museum/
+  tags:
+    - tag: art
+    - tag: paint
+    - tag: museum
+
+- name: Knitting
+  descr: "I love crafting items. In particular, knitting is so relaxing."
+  tags:
+    - tag: Celtic
+    - tag: knitting
+    - tag: crafts
 
 - name: Penelope
   descr: "Love my indoor cat, Penelope. She enjoys playing fetch... but isn't too keen on returning the ball."
@@ -32,14 +40,6 @@
   tags:
     - tag: food
     - tag: onions
-
-- name: Murals
-  descr: "From 2016 to 2017 I was a mural artist for the Seuss Museum in Springfield, MA."
-  demo: https://springfieldmuseums.org/about/dr-seuss-museum/
-  tags:
-    - tag: art
-    - tag: paint
-    - tag: museum
 
 - name: Hiking
   descr: "My partner and I walk almost every day."
