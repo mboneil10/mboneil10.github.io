@@ -6,12 +6,13 @@
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
         </div>
-        <p class="project-desc">{{project.descr}}</p>
+        <p class="project-desc">{{project.descr}}
         {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
             More info
           </a>
         {% endif %}
+        </p>
         {% if project.image %}
           <img src="/assets/img/{{project.image}}" class="info-pic" alt="project photos">
         {% endif %}
