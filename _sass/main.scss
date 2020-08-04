@@ -85,6 +85,14 @@ a {
 }
 
 /* Layout */
+.info-pic {
+  width: 200px;
+  height: 200px;
+  object-fix: cover;
+  border-radius: 50%;
+  align-self: left;
+  border: 2px dotted white;
+}
 
 .layout {
   margin: 0.5rem;
