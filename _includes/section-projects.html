@@ -12,7 +12,9 @@
             More info
           </a>
         {% endif %}
-        <img src="/assets/img/{{project.image}}" class="info-pic" alt="project photos">
+        {% if project.image %}
+          <img src="/assets/img/{{project.image}}" class="info-pic" alt="project photos">
+        {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}
