@@ -85,6 +85,15 @@ a {
 }
 
 /* Layout */
+.info-pic {
+  width: 300px;
+  height: 300px;
+  object-fix: cover;
+  border-radius: 50%;
+  align-self: center;
+  box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 1), inset -2px -2px 4px 0 rgba(99, 99, 99, 1);
+  padding: .25rem .25rem;
+}
 
 .layout {
   margin: 0.5rem;

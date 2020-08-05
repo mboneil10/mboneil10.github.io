@@ -6,11 +6,15 @@
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
         </div>
-        <p class="project-desc">{{project.descr}}</p>
+        <p class="project-desc">{{project.descr}}
         {% if project.demo %}
           <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
             More info
           </a>
+        {% endif %}
+        </p>
+        {% if project.image %}
+          <img src="/assets/img/{{project.image}}" class="info-pic" alt="project photos">
         {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
@@ -47,7 +51,7 @@
       {% unless site.projects.exclude.projects contains repository.name %}
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
-            <h3>{{ repository.name }}</h3>
+            <h3>{{ repository.name | capitalize }}</h3>
             <div class="links">
               {% if repository.stargazers_count != 0 %}
                 <a href="{{ repository.html_url }}/stargazers" class="project-stars-forks">
