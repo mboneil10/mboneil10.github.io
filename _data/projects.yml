@@ -6,7 +6,6 @@
 # Example of a project
 - name: Singing
   descr: "I'm a member of the Newton Family Singers."
-  # image: cropped-molly-rock.jpg
   demo: http://www.newtonfamilysingers.org/
   tags:
     - tag: music
