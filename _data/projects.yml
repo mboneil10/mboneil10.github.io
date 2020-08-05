@@ -7,6 +7,7 @@
 - name: Singing
   descr: "I'm a member of the Newton Family Singers."
   demo: http://www.newtonfamilysingers.org/
+  image: mollysinging.jpg
   tags:
     - tag: music
     - tag: community
@@ -16,6 +17,7 @@
 - name: Murals
   descr: "From 2016 to 2017 I was a mural artist for the Seuss Museum in Springfield, MA."
   demo: https://springfieldmuseums.org/about/dr-seuss-museum/
+  image: seussmuseum.jpg
   tags:
     - tag: art
     - tag: paint
@@ -23,13 +25,15 @@
 
 - name: Knitting
   descr: "I love crafting items. In particular, knitting is so relaxing."
+  image: knitting.jpg
   tags:
     - tag: Celtic
     - tag: knitting
     - tag: crafts
 
 - name: Penelope
-  descr: "Love my indoor cat, Penelope. She enjoys playing fetch... but isn't too keen on returning the ball."
+  descr: "Love my indoor cat, Penelope. She is a total princess and goofball."
+  image: pennybridge.jpg
   tags:
     - tag: tuxedo
     - tag: cat
@@ -37,12 +41,14 @@
 
 - name: Cooking
   descr: "Since April 2020, I've been working on my cooking skills!"
+  image: mollyfood.jpg
   tags:
     - tag: food
     - tag: onions
 
 - name: Hiking
   descr: "My partner and I walk almost every day."
+  image: davidwalking.jpg
   tags:
     - tag: walking
     - tag: health
