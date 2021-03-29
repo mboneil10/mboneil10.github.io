@@ -35,7 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Looking for new career adventures! I'm a software engineer and business systems analyst located in Sanibel, FL. Alumna of UMass Amherst with a B.S. in Pure and Computing Mathematics. Seeker of effective, durable solutions.
+about_me_description: Looking for new career adventures! I'm a software engineer and business systems analyst located in Wilbraham, MA. Alumna of UMass Amherst with a B.S. in Pure and Computing Mathematics. Seeker of effective, durable solutions.
 # SKILLS SECTION
 # show_skills_card:
 # > setting this to true, will display the Skills section
@@ -53,7 +53,7 @@ show_timeline_card: true
 timeline_title: Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://www.dropbox.com/s/7fz1zfjxjuoaw1l/MollyBONeil_SDResume_20200730.docx?dl=0
+cv_download_link: https://www.dropbox.com/s/lf3rx9p5ywh5xay/MollyBONeil_SDResume_20210329b.docx?dl=0
 
 # PROJECTS SECTION
 # show_os_projects:
